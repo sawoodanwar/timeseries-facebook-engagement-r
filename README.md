@@ -1,9 +1,8 @@
 # Time-Series Analysis of Facebook Post Engagement in R
 
-[![Language: R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
+[![Language: R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r&logoColor=white)]()
 [![Method: Time-Series](https://img.shields.io/badge/Method-Time--Series%20Analysis-orange?style=flat)]()
 [![Platform: Facebook](https://img.shields.io/badge/Platform-Facebook-1877F2?style=flat&logo=facebook&logoColor=white)]()
-[![Topic: Social Media](https://img.shields.io/badge/Domain-Social%20Media%20%7C%20Health%20Misinfo-informational?style=flat)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -13,7 +12,7 @@ This repository provides a **comprehensive R-based time-series analysis framewor
 | Module | Focus |
 |---|---|
 | 🧩 **Module 1: General Toolkit** | Reusable time-series functions for any social media engagement data |
-| 🦠 **Module 2: COVID-19 Extension** | Applied to Facebook news engagement during the COVID-19 pandemic in India (2020–2022) |
+| 🦠 **Module 2: COVID-19 Extension** | Applied to Facebook news engagement during COVID-19 in India (2020–2022) |
 | 🚨 **Module 3: Misinfo Spike Detection** | Anomaly detection for health misinformation spikes on Facebook |
 
 ---
@@ -31,32 +30,28 @@ This repository provides a **comprehensive R-based time-series analysis framewor
 | 🔴 [disinformation-detection-ml](https://github.com/sawoodanwar/disinformation-detection-ml) | ML classifier for disinformation detection |
 | 🟣 [nlp-news-classification-r](https://github.com/sawoodanwar/nlp-news-classification-r) | Supervised NLP news classification |
 | 🟢 [crowdtangle-meta-api-workflow](https://github.com/sawoodanwar/crowdtangle-meta-api-workflow) | Academic data collection pipeline |
+| 📊 [survey-data-analysis-r](https://github.com/sawoodanwar/survey-data-analysis-r) | Survey data cleaning, Likert analysis & descriptives |
+| 📝 [survey-scale-validation-r](https://github.com/sawoodanwar/survey-scale-validation-r) | Scale validation: EFA/CFA, Cronbach alpha, reliability |
+| 🧪 [survey-experiment-analysis-r](https://github.com/sawoodanwar/survey-experiment-analysis-r) | Survey experiment & vignette study analysis |
 
 ---
 
 ## Module 1: General Toolkit
 
-Platform-agnostic framework for time-series analysis of any social media engagement CSV.
 - Rolling mean, rolling SD (7-day and 14-day windows)
 - Z-score and percentage-change anomaly detection
 - Configurable anomaly thresholds and flagging
 - Time-series decomposition (trend, seasonality, residual)
 
----
-
 ## Module 2: COVID-19 Facebook Extension
 
-Applied to Facebook engagement during COVID-19 news coverage in India (March 2020 – March 2022).
 - Reaction-specific time trends (Like, Love, Haha, Wow, Sad, Angry)
 - Segmented analysis by pandemic phase (Wave 1, Inter-wave, Delta, Omicron)
 - Cross-outlet comparison: Times of India, The Hindu, Indian Express, Hindustan Times
 - Identification of **48 anomalous engagement days**
 
----
-
 ## Module 3: Health Misinformation Spike Detection
 
-Detects and annotates unusual engagement spikes in health misinformation content.
 - Spike detection via Z-score on misinformation-coded posts
 - Real-world event annotation (lockdowns, waves, vaccine rollout)
 - Weekly engagement heatmaps across years
@@ -83,13 +78,10 @@ timeseries-facebook-engagement-r/
 │   └── 03_spike_visualization.R
 ├── data/README.md
 ├── output/figures/
-├── output/tables/
 ├── .gitignore
 ├── README.md
 └── LICENSE
 ```
-
----
 
 ## Requirements
 
@@ -100,42 +92,16 @@ install.packages(c("tidyverse", "lubridate", "zoo", "tseries",
 
 ---
 
-## Key Concepts
-
-| Concept | Description |
-|---|---|
-| **Rolling Mean** | Smooths short-term fluctuations to reveal underlying trends |
-| **Z-score** | Measures standard deviations from the mean |
-| **Percentage Change** | Captures relative shifts between consecutive time points |
-| **Anomaly Day** | A day where engagement deviates significantly from baseline |
-| **Spike** | A sudden, sharp increase often tied to external events |
-
----
-
 ## Author
 
-**Sawood Anwar** — PhD in Humanities (Text and Communication Sciences), defended 22 September 2025
-University of Urbino Carlo Bo | Supervisor: Prof. Fabio Giglietto | Co-Supervisor: Prof. Giovanni Boccia Artieri
+**Sawood Anwar** — PhD in Humanities (Text and Communication Sciences), University of Urbino Carlo Bo
+Defended: 22 September 2025 | Supervisor: Prof. Fabio Giglietto
 
 - 🔗 [GitHub](https://github.com/sawoodanwar) | 💼 [LinkedIn](https://www.linkedin.com/in/sawood-anwar/) | 🎓 [Google Scholar](https://scholar.google.com/citations?hl=en&user=GgsMu3sAAAAJ)
 
 ---
 
-## Citation
-
-```bibtex
-@phdthesis{anwar2025facebook,
-  title  = {"Facebook Reactions" as Emotional Indicators},
-  author = {Anwar, Sawood},
-  year   = {2025},
-  school = {University of Urbino Carlo Bo}
-}
-```
-
----
-
 ## License
-
 MIT License. See [LICENSE](LICENSE).
 
-*Keywords: Time-Series Analysis, Facebook Engagement, Anomaly Detection, Z-score, Rolling Statistics, COVID-19, Health Misinformation, R, Computational Communication*
+*Keywords: Time-Series Analysis, Facebook Engagement, Anomaly Detection, Z-score, Rolling Statistics, COVID-19, Health Misinformation, R*
