@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this code or methodology, please cite as below."
+type: software
+title: "Time-Series Facebook Engagement R: Longitudinal Social Media Engagement Analysis Toolkit"
+abstract: >
+  A three-module reproducible R framework for longitudinal social media engagement research:
+  (1) a general-purpose time-series toolkit, (2) a COVID-19 Facebook extension with
+  reaction-type and pandemic-phase stratification, and (3) a health misinformation spike
+  detection module with event annotation and heatmap visualisation. Developed by Sawood Anwar
+  as part of doctoral research at the University of Urbino Carlo Bo, Italy (2025).
+authors:
+  - family-names: Anwar
+    given-names: Sawood
+    orcid: "https://orcid.org/0009-0000-2819-9179"
+    affiliation: "University of Urbino Carlo Bo, Italy"
+    email: anwar1524@gmail.com
+contact:
+  - family-names: Anwar
+    given-names: Sawood
+    email: anwar1524@gmail.com
+    orcid: "https://orcid.org/0009-0000-2819-9179"
+repository-code: "https://github.com/sawoodanwar/timeseries-facebook-engagement-r"
+url: "https://sawoodanwar.github.io/"
+license: MIT
+version: "1.0.0"
+date-released: "2025-09-22"
+identifiers:
+  - type: doi
+    value: "10.3389/fsoc.2024.1379265"
+    description: "DOI of the associated peer-reviewed journal article (Frontiers in Sociology, 2024)"
+keywords:
+  - time-series analysis
+  - Facebook
+  - social media engagement
+  - R
+  - COVID-19
+  - anomaly detection
+  - misinformation
+  - health communication
+  - computational communication
+  - longitudinal analysis
+  - spike detection
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Anwar
+      given-names: Sawood
+      orcid: "https://orcid.org/0009-0000-2819-9179"
+    - family-names: Giglietto
+      given-names: Fabio
+  title: "Facebook Reactions as Emotional Indicators: Analyzing Public Engagement with COVID-19 Pandemic News on Indian Media Platforms During the Early Lockdown Phase"
+  journal: "Frontiers in Sociology"
+  volume: "9"
+  article-number: "1379265"
+  year: 2024
+  doi: "10.3389/fsoc.2024.1379265"
+  url: "https://doi.org/10.3389/fsoc.2024.1379265"
+  issn: "2297-7775"
